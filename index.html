@@ -5,11 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Productly</title>
+    <link rel="stylesheet" href="src/sass/style.css">
 </head>
 <body>
     <header class="header">
-        <div class="wrapper">
+        <div class="wrapper header__wrapper">
             <div class="header__logo-line">
+                <span class="header__hamburger hamburger"><span class="hamburger__line"></span></span>
                 <a class="logo" href="#">
                     <object class="logo-object" data="./src/img/logo.svg" type="image/svg+xml">
                         Your browser does not support SVG
@@ -39,7 +41,7 @@
         </div>
     </header>
     <section class="promo">
-        <div class="wrapper">
+        <div class="wrapper promo__wrapper">
             <div class="promo__content">
                 <h1 class="promo__title">The Design Thinking superpowers</h1>
                 <p class="promo__text">Tools, tutorials, design and innovation experts, all in one place! The most intuitive way to imagine your next user experience.</p>
@@ -55,7 +57,7 @@
         </div>
     </section>
     <section class="tools">
-        <div class="wrapper">
+        <div class="wrapper tools__wrapper">
             <h2 class="tools__title">We design tools to unveil your superpowers</h2>
             <div class="layout-4-column tool-container">
                 <div class="tool">
@@ -70,7 +72,7 @@
                 <div class="tool">
                     <div class="tool__icon">
                         <span class="icon-square icon-square_yellow">
-                            <span class="ico ico_snake"></span>
+                            <span class="icon icon_snake"></span>
                         </span>
                     </div>
                     <h4 class="tool__title">Design surveys</h4>
@@ -79,7 +81,7 @@
                 <div class="tool">
                     <div class="tool__icon">
                         <span class="icon-square icon-square_red">
-                            <span class="ico ico_heart"></span>
+                            <span class="icon icon_heart"></span>
                         </span>
                     </div>
                     <h4 class="tool__title">Preference tests</h4>
@@ -88,7 +90,7 @@
                 <div class="tool">
                     <div class="tool__icon">
                         <span class="icon-square icon-square_blue">
-                            <span class="ico ico_clock"></span>
+                            <span class="icon icon_clock"></span>
                         </span>
                     </div>
                     <h4 class="tool__title">Five second tests</h4>
@@ -110,7 +112,7 @@
                 <span class="tag tag_bordered">Culture</span>
                 <span class="tag tag_bordered">Design</span>
             </div>
-            <div class="layout-3-column">
+            <div class="layout-3-column strategy-wrapper">
                 <article class="strategy block-shadowed">
                     <img class="strategy__image" src="./src/img/strategies/1.jpg" alt="strategy">
                     <div class="strategy__content">
@@ -168,7 +170,7 @@
         <div class="wrapper">
             <h2 class="about-us__title">About Us</h2>
             <p class="about-us__description">Your About Us page is vital. It’s often the first stop in any user’s journey through a website or blog. It also shouldn’t be their last, because first impressions count online just as much as they do in the real world. If your visitors aren’t impressed, you can expect them to leave without reading your awesome content or completing a conversion action (e.g., signing up for your newsletter, making a purchase).</p>
-            <div class="layout-3-column">
+            <div class="layout-3-column employee-wrapper">
                 <div class="employee block-shadowed">
                     <div class="employee__content">
                         <h5 class="employee__name">Kathy Rosenberg</h5>
@@ -199,7 +201,7 @@
     <section class="contact-us">
         <div class="wrapper">
             <h2 class="contact-us__title">Contact Us</h2>
-            <div class="layout-2-column">
+            <div class="layout-2-column contact-us-container">
                 <div class="contact-us__content">
                     <p class="contact-us__text">Your About Us page is vital. It’s often the first stop in any user’s journey through a website or blog. It also shouldn’t be their last, because first impressions count online just as much as they do in the real world. If your visitors aren’t impressed, you can expect them to leave without reading your awesome content or completing a conversion action (e.g., signing up for your newsletter, making a purchase).</p>
                     <p class="contact-us__link">
@@ -231,7 +233,7 @@
         </div>
     </section>
     <footer class="footer">
-        <div class="wrapper">
+        <div class="wrapper footer__wrapper">
             <a class="logo" href="#">
                 <object class="logo-object" data="./src/img/logo.svg" type="image/svg+xml">
                     Your browser does not support SVG
